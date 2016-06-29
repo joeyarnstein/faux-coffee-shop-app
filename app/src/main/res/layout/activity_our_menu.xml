@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.epicodus.spella.OurMenu">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/spella" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spella Caffè specializes in traditional espresso, macchiato and cappuccino―from the careful selection, roasting and blending of coffee beans to the hand-pulled extraction of the ristretto. Spella Caffè offers fresh-brewed, single-origin coffees; handcrafted and made-to-order chai and teas; Italian sodas; and gelato, sorbetto, and affogato.  "
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where to Buy\n"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spella Caffè coffees may also be enjoyed at Alma Chocolate, Fire on the Mountain - NE Fremont Location, The Fireside, FlavourSpot, Lion&apos;s Share Coffeehouse &amp; Bakery, Market of Choice - Terwilliger, Nostrana, Raven and Rose, Sunny Day Coffee, and Tabor Bread.  \n\n Selected Spella Caffè coffees are available for purchase at any of the eight Oregon Market of Choice locations. \n\n Spella Caffè also provides retail and wholesale coffee beans roasted with care in small batches to bring out their unique qualities. Please contact Andrea for more information.  "
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
